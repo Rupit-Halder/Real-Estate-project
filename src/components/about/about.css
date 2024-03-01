@@ -1,0 +1,191 @@
+.taha123{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px ;
+    padding-right: 50px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about_main{
+    padding-bottom: 100px;
+}
+.box1{
+    height: 320px;
+    width: 350px;
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    position: relative;
+    cursor: pointer;
+}
+.box2{
+    height: 320px;
+    width: 350px;
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    position: relative;
+    cursor: pointer;
+}
+.box3{
+    height: 320px;
+    width: 350px;
+    padding-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    position: relative;
+    cursor: pointer;
+}
+.box1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 10px;
+    background-color: #FF7527 !important;
+    border-radius: 50px;
+    transition: .5s;
+}
+.box1:hover:after{
+    height: 100% !important;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.pilih{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+.carl{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.496);
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.carl1{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.496);
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.baca{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+.baca1{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75); 
+    padding-top: 20px;
+}
+.number{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+    color: #FF7527;
+   padding-left: 140px;
+    display: inline-block;
+}
+.number1{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+    color: #FF7527;
+    padding-left: 120px;
+    display: inline-block;
+}
+.number2{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+    color: #FF7527;
+    padding-left: 90px;
+    display: inline-block;
+}
+
+
+@media (max-width:767px){
+    .taha123 {
+        font-size: 24px;
+        padding-right: 0px;
+        font-weight: 600;
+        padding-top: 45px;
+        line-height: 40px;
+    }
+    .box1 {
+        width: 240px;
+        padding-top: 42px;
+        margin-left: 25px;
+    }
+    .number {
+        font-size: 14px;
+        padding-left: 58px;
+    }
+    .carl {
+        font-size: 13px;
+        padding-top: 2px;
+        padding-right: 20px;
+    }
+    .baca {
+        font-size: 15px;
+    }
+    .number1 {
+        font-size: 15px;
+        padding-left: 35px;
+    }
+    .carl1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+        line-height: 30px;
+        padding-top: 20px;
+        padding-right: 24px;
+    }
+    .baca1 {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+    .pilih {
+        font-size: 16px;
+    }
+    .pilih {
+        font-size: 14px;
+    }
+    .number2 {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .carl {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+}

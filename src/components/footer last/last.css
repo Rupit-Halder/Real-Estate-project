@@ -1,0 +1,24 @@
+.last_main{
+    background-color: #203239;
+    padding: 30px 0 30px 0;
+}
+.foter-icon{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.footerlogo{
+    cursor: pointer;
+}
+.footer_icon{
+    display: flex;
+}
+
+@media (max-width:767px){
+    .foter-icon {
+        font-size: 15px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+}
